@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manit Gera - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="loader-inner">
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+                <div class="loader-line-wrap">
+                    <div class="loader-line"></div>
+                </div>
+            </div>
+        </div>
+        <div class="loading-text">
+            <span class="loading-char">M</span>
+            <span class="loading-char">A</span>
+            <span class="loading-char">N</span>
+            <span class="loading-char">I</span>
+            <span class="loading-char">T</span>
+            <span class="loading-char">&nbsp;</span>
+            <span class="loading-char">G</span>
+            <span class="loading-char">E</span>
+            <span class="loading-char">R</span>
+            <span class="loading-char">A</span>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">MG</span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#education" class="nav-link">Education</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#experience" class="nav-link">Experience</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#game" class="nav-link">Game</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+                <div class="shape shape-5"></div>
+            </div>
+            <div class="grid-overlay"></div>
+        </div>
+        
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">Hello, I'm</span>
+                    <span class="title-line highlight">Manit Gera</span>
+                    <span class="title-line">Full Stack Developer</span>
+                </h1>
+                <p class="hero-description">
+                    Passionate CS student crafting innovative solutions with cutting-edge technologies. 
+                    Building the future, one line of code at a time.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <span>View My Work</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <span>Get In Touch</span>
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="profile-image-container">
+                    <div class="profile-image">
+                        <img src="profile-image.jpg" alt="Manit Gera" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                        <div class="profile-placeholder" style="display: none;">
+                            <i class="fas fa-user"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="code-window">
+                    <div class="window-header">
+                        <div class="window-controls">
+                            <span class="control close"></span>
+                            <span class="control minimize"></span>
+                            <span class="control maximize"></span>
+                        </div>
+                        <div class="window-title">manit_gera.js</div>
+                    </div>
+                    <div class="code-content">
+                        <div class="code-line">
+                            <span class="line-number">1</span>
+                            <span class="code-text">
+                                <span class="keyword">const</span> 
+                                <span class="variable">developer</span> 
+                                <span class="operator">=</span> 
+                                <span class="string">"Manit Gera"</span><span class="semicolon">;</span>
+                            </span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">2</span>
+                            <span class="code-text">
+                                <span class="keyword">const</span> 
+                                <span class="variable">skills</span> 
+                                <span class="operator">=</span> 
+                                <span class="bracket">[</span>
+                            </span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">3</span>
+                            <span class="code-text">
+                                &nbsp;&nbsp;<span class="string">"ReactJS"</span><span class="comma">,</span>
+                            </span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">4</span>
+                            <span class="code-text">
+                                &nbsp;&nbsp;<span class="string">"Golang"</span><span class="comma">,</span>
+                            </span>
+                        </div>
+                        <div class="code-line">
+                            <span class="code-text">
+                            &nbsp;&nbsp;<span class="string">"AWS"</span><span class="comma">,</span>
+                            </span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">5</span>
+                            <span class="code-text">
+                                &nbsp;&nbsp;<span class="string">"DevOps"</span>
+                            </span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">6</span>
+                            <span class="code-text">
+                                <span class="bracket">]</span><span class="semicolon">;</span>
+                            </span>
+                        </div>
+                        <div class="code-line">
+                            <span class="line-number">7</span>
+                            <span class="code-text">
+                                <span class="keyword">const</span> 
+                                <span class="variable">passion</span> 
+                                <span class="operator">=</span> 
+                                <span class="string">"Innovation"</span><span class="semicolon">;</span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="scroll-line"></div>
+            <span class="scroll-text">Scroll to explore</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know the person behind the code</p>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <div class="about-card">
+                        <h3>Who I Am</h3>
+                        <p>
+                            I'm a passionate Computer Science student at VIT, currently working as an SDE Intern at InstaVid. 
+                            With a strong foundation in full-stack development and DevOps, I love creating 
+                            innovative solutions that make a real impact.
+                        </p>
+                    </div>
+                    
+                    <div class="about-card">
+                        <h3>My Journey</h3>
+                        <p>
+                            From being a Top Coder among 8000+ students to building serverless applications on AWS, 
+                            my journey has been about continuous learning and pushing boundaries. I believe in the power 
+                            of technology to solve real-world problems. When I'm not coding, you'll find me hitting the gym 
+                            and staying fit - because a healthy mind needs a healthy body!
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="skills-section">
+                    <h3>Technical Skills</h3>
+                    <div class="skills-grid">
+                        <div class="skill-category">
+                            <h4>Languages</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">JavaScript</span>
+                                <span class="skill-tag">HTML</span>
+                                <span class="skill-tag">Golang</span>
+                                <span class="skill-tag">C++</span>
+                                <span class="skill-tag">Java</span>
+                                <span class="skill-tag">SQL</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <h4>Frameworks & Tools</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">ReactJS</span>
+                                <span class="skill-tag">NodeJS</span>
+                                <span class="skill-tag">ExpressJS</span>
+                                <span class="skill-tag">TypeScript</span>
+                                <span class="skill-tag">Docker</span>
+                                <span class="skill-tag">Jenkins</span>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-category">
+                            <h4>Cloud & DevOps</h4>
+                            <div class="skill-tags">
+                                <span class="skill-tag">AWS</span>
+                                <span class="skill-tag">Jenkins</span>
+                                <span class="skill-tag">Docker</span>
+                                <span class="skill-tag">CI/CD</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Education</h2>
+                <p class="section-subtitle">My academic journey</p>
+            </div>
+            
+            <div class="education-timeline">
+                <div class="education-item">
+                    <div class="education-marker"></div>
+                    <div class="education-content">
+                        <div class="education-card">
+                            <div class="education-header">
+                                <h3>Bachelor of Technology - Computer Science & Engineering</h3>
+                                <span class="institution">Vellore Institute of Technology</span>
+                                <span class="duration">2021 - 2025</span>
+                            </div>
+                            <div class="education-body">
+                                <div class="grade">
+                                    <span class="grade-label">CGPA:</span>
+                                    <span class="grade-value">8.68</span>
+                                </div>
+                                <p>Pursuing B.Tech in Computer Science & Engineering with focus on software development, algorithms, and system design.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="education-item">
+                    <div class="education-marker"></div>
+                    <div class="education-content">
+                        <div class="education-card">
+                            <div class="education-header">
+                                <h3>Class 12th - CBSE</h3>
+                                <span class="institution">Genius Little Flower Public School</span>
+                                <span class="duration">2020 - 2021</span>
+                            </div>
+                            <div class="education-body">
+                                <div class="grade">
+                                    <span class="grade-label">Percentage:</span>
+                                    <span class="grade-value">91%</span>
+                                </div>
+                                <p>Completed Class 12th with excellent performance in Science stream, focusing on Mathematics, Physics, and Chemistry beleiving I'll finally enjoy afterwards!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="education-item">
+                    <div class="education-marker"></div>
+                    <div class="education-content">
+                        <div class="education-card">
+                            <div class="education-header">
+                                <h3>Class 10th - CBSE</h3>
+                                <span class="institution">Little Flower Convent School</span>
+                                <span class="duration">2018 - 2019</span>
+                            </div>
+                            <div class="education-body">
+                                <div class="grade">
+                                    <span class="grade-label">Percentage:</span>
+                                    <span class="grade-value">92.8%</span>
+                                </div>
+                                <p>Completed Class 10th believing I'll finally enjoy afterwards!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Experience</h2>
+                <p class="section-subtitle">My professional journey</p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <h3>Software Development Engineer Intern</h3>
+                                <span class="company">InstaVid</span>
+                                <span class="duration">May 2025 – Present</span>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Full Stack Development with ReactJS, Golang, and TypeScript</p>
+                                <ul>
+                                    <li>Building dynamic and responsive UIs using ReactJS with TypeScript for e-commerce platform</li>
+                                    <li>Working on backend services using Golang, contributing to API development</li>
+                                    <li>Collaborating in full-stack setup with tools like ngrok for local API tunneling</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-card">
+                            <div class="timeline-header">
+                                <h3>Project Intern</h3>
+                                <span class="company">Kochar Tech</span>
+                                <span class="duration">Nov 2023 - Dec 2023</span>
+                            </div>
+                            <div class="timeline-body">
+                                <p>Test Automation and CI/CD Integration</p>
+                                <ul>
+                                    <li>Automated 85% of test cases using Java Selenium, reducing manual testing by 40%</li>
+                                    <li>Integrated Selenium WebDriver with CI/CD pipelines (Jenkins)</li>
+                                    <li>Containerized test environments using Docker for consistency</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Some of my recent work</p>
+            </div>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>AWS</span>
+                                <span>Lambda</span>
+                                <span>Lex</span>
+                                <span>Bedrock</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Mealify</h3>
+                        <p>Serverless chatbot on AWS that generates personalized 7-day meal plans based on user preferences.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-number">99%</span>
+                                <span class="stat-label">Uptime</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">35%</span>
+                                <span class="stat-label">Cost Reduction</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>ReactJS</span>
+                                <span>JavaScript</span>
+                                <span>ExpressJS</span>
+                                <span>API</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>CryptoTable</h3>
+                        <p>Multi-page web application displaying real-time cryptocurrency pricing and value trends with interactive dashboards.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-number">Real-time</span>
+                                <span class="stat-label">Data</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">Multi-coin</span>
+                                <span class="stat-label">Tracking</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://cryptobymanit-g.netlify.app" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Huffman</span>
+                                <span>CLI</span>
+                                <span>Algorithms</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>File Zipper</h3>
+                        <p>Python-based file compression system using Huffman coding, reducing file sizes by up to 50%.</p>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <span class="stat-number">50%</span>
+                                <span class="stat-label">Compression</span>
+                            </div>
+                            <div class="stat">
+                                <span class="stat-number">CLI</span>
+                                <span class="stat-label">Interface</span>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://filezipperbymg.netlify.app" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i>
+                                Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Game Section -->
+    <section id="game" class="game-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Code Challenge</h2>
+                <p class="section-subtitle">Test your coding skills with this interactive puzzle</p>
+            </div>
+            
+            <div class="game-container">
+                <div class="game-header">
+                    <h3>Binary Search Challenge</h3>
+                    <div class="game-stats">
+                        <div class="stat">
+                            <span class="stat-label">Score:</span>
+                            <span class="stat-value" id="score">0</span>
+                        </div>
+                        <div class="stat">
+                            <span class="stat-label">Time:</span>
+                            <span class="stat-value" id="timer">60</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="game-board">
+                    <div class="array-display" id="array-display"></div>
+                    <div class="target-display">
+                        <span>Find: </span>
+                        <span id="target-value">?</span>
+                    </div>
+                </div>
+                
+                <div class="game-controls">
+                    <div class="binary-search-controls">
+                        <button class="game-btn" id="left-btn">← Left</button>
+                        <button class="game-btn" id="middle-btn">Middle</button>
+                        <button class="game-btn" id="right-btn">Right →</button>
+                    </div>
+                    <button class="game-btn primary" id="start-btn">Start Game</button>
+                    <button class="game-btn" id="reset-btn">Reset</button>
+                </div>
+                
+                <div class="game-feedback" id="game-feedback"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's build something amazing together</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info contact-info-centered">
+                    <a href="mailto:manitgera@gmail.com" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>manitgera@gmail.com</p>
+                        </div>
+                    </a>
+                    
+                    <a href="tel:+918288820512" class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+91 8288820512</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/manitgeraa/" class="contact-card" target="_blank">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>LinkedIn</h3>
+                            <p>@manitgeraa</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://github.com/manit-g" class="contact-card" target="_blank">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>GitHub</h3>
+                            <p>github.com/manit-g</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.instagram.com/____manit/" class="contact-card" target="_blank">
+                        <div class="contact-icon">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Instagram</h3>
+                            <p>@____manit</p>
+                        </div>
+                    </a>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-text">
+                    <p>Manit Gera - dm to know more!</p>
+                </div>
+                <div class="footer-social">
+                    <a href="https://github.com/manit-g" class="social-link" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/manitgeraa/" class="social-link" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/____manit/" class="social-link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="mailto:manitgera@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
